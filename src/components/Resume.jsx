@@ -8,16 +8,6 @@ export default function Resume() {
         <h2 className="section__title">Resume</h2>
         <p className="section__lede">{resume.summary}</p>
 
-        <div className="resume__actions">
-          <a
-            className="btn btn--primary"
-            href={profile.resumeUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download résumé (PDF)
-          </a>
-        </div>
 
         {/* Education */}
         <div className="resume__block">

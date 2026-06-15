@@ -44,16 +44,7 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="contact__actions">
-            <a
-              className="btn btn--primary"
-              href={profile.resumeUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Download résumé
-            </a>
-          </div>
+          
         </div>
       </section>
 
